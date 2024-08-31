@@ -1,0 +1,87 @@
+@media screen and (max-width: 900px) {
+    .c-stepper__item:before {
+        padding-left: 1px;
+        padding-top: 11px;
+        font-size: 12px;
+    }
+
+    .c-stepper__item {
+        margin-left: -12px;
+    }
+
+    .c-stepper__desc {
+        display: none;
+    }
+
+    .c-stepper__title {
+        font-size: 13px;
+    }
+
+    .c-stepper__title {
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .c-stepper__item:before {
+        padding-left: 0px;
+        padding-top: 5px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 720px) {
+    .c-stepper__item:before {
+        padding-left: 0px;
+        padding-top: 5px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .samarth-logo {
+        height: 34px !important;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .steps-header {
+        display: none
+    }
+    .steps-body,
+    .step {
+        display: block
+    }
+    .step {
+        border-right: 0;
+        border-bottom: 1px dashed #e7e7e7
+    }
+    .step:last-child {
+        border-bottom: 0
+    }
+    .has-indicator {
+        padding: 1rem .75rem
+    }
+    .has-indicator .step-indicator {
+        display: inline-block;
+        position: static;
+        margin: 0;
+        margin-right: 0.75rem
+    }
+}
+
+@media (max-width: 768px) {
+    .slick-arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+    .row .slick.slider{
+        overflow: hidden;
+    }
+}
